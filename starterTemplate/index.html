@@ -1,0 +1,71 @@
+<!--
+This is how you set up Bootstrap to be used inside of your project
+1. First download Bootstrap (Css and Js) from Boostrap 4 website
+2. Add the folder inside your project
+3. Write the following code inside your html.index
+-->
+
+<!DOCTYPE html>
+<!--Include language when using Bootstrap!!-->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+<!--    charset:  We set this to grab the unicode standards | the 8 will make it backwards compatible-->
+    <meta charset="utf-8">
+<!--      Especially for mobile state-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      
+    <!-- Bootstrap CSS -->
+      
+      
+      
+<!--      grabing the MINified version because when this loads in a web browser, the minified file is going to load faster. it's like compressed of the css for us -->
+<!--      this is for grid system(rows and colomns)-->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+      
+      
+      
+      
+<!--      MINified version of just the Bootstrap-->
+<!--      this is for the Bootstrap styling of the elemens in the project-->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+      
+      
+      
+<!--      this is for grabing our css file. because it's LAST, it has the ability to overwrite any of the classes we modify/change/add any of our custome classes that we added to our page-->
+    <link rel="stylesheet" href="style.css">
+       
+      
+      
+<!--      [OR]-->
+<!--          If we wouldn't have downloaded Bootstrap(write the following INSTEAD of the links above)-->
+        <!--      cdn=content delivery network-->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+      
+      
+  </head>
+  <body>
+    
+      
+     
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      
+<!--      Tether: it helps positioning elements. give an exact accurate positioning in our html page(e.g navbars and dropdowns) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<!--      Bootstrap JS-->
+<!--      if we installed Bootstrap -->
+<!--      MINified version so it loads faster-->
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+      
+      
+<!--      [OR]-->
+<!--      if we don't have Bootstrap installed-->
+<!--
+      cdn
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+-->
+  </body>
+</html>
